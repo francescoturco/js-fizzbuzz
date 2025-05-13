@@ -1,7 +1,9 @@
 console.log ('FizzBuzz Exercise')
 
 
-for (let i = 1; i <= 100; i++)  {
+for (let i = 0; i < 100; i++)  {
+    const n = i + 1
+
     if (i % 3 === 0 && i % 5 === 0) {
         console.log('FizzBuzz');
     }
@@ -15,5 +17,5 @@ for (let i = 1; i <= 100; i++)  {
         console.log(i);
     }
     
-
 }
+
